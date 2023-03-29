@@ -4,15 +4,15 @@
     padding-top: 0;
 }
 
-.work-item:not(:last-child) {
+.work__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.work-box {
+.work__box {
     display: flex;
 }
 
-.work-title {
+.work__title {
     margin-bottom: 50px;
 
     font-weight: 700;
@@ -21,11 +21,11 @@
     text-align: center;
 }
 
-.thumb-work {
+.thumb__work {
     position: relative;
 }
 
-.work-text {
+.work__text {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -35,7 +35,7 @@
     background: rgba(47, 48, 58, 0.8);
 }
 
-.work-desc {
+.work__desc {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;

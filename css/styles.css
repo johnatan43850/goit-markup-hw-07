@@ -266,7 +266,7 @@ margin-left: auto;
 
 }
 
-.hero-title{
+.hero__title{
         margin-bottom: 30px;
         max-width: 696px;
         margin-left: auto;
@@ -282,7 +282,7 @@ margin-left: auto;
     
 }
 
-.button {
+.hero__button {
         display: inline-block;
         min-width: 216px;
         height: 50px;
@@ -654,7 +654,7 @@ textarea{
         padding-top: 0;
 }
 
-.work-item:not(:last-child){
+.work__item:not(:last-child){
     margin-right: 30px;
 }
 
@@ -674,7 +674,7 @@ textarea{
 .thumb-work{
         position: relative;
 }
-.work-text{
+.work__text{
         position: absolute;
         bottom: 0;
         left: 0;
