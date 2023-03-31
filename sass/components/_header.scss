@@ -14,7 +14,7 @@
 .logo {
     margin-right: 93px;
 
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--font-familiy-secondaruy);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -87,6 +87,11 @@
 
     color: var(--pramary-text-color);
 
+    &:hover,
+    &:focus {
+            color: var(--accent-text-color);
+    
+     }
 }
 
 .link-header {
@@ -102,11 +107,7 @@
 
 }
 
-.link:hover,
-.link:focus {
-    color: var(--accent-text-color);
 
-}
 
 /*heder*/
 .header {
@@ -149,18 +150,22 @@
 
     color: var(--secondary-text-color);
 
+   &:not(:last-child) {
+            margin-right: 50px;
 }
 
-
-.heder-contact:not(:last-child) {
-    margin-right: 50px;
-}
-
-.heder-contact:hover,
-.heder-contact:focus {
+&:hover,
+&:focus {
 
     color: var(--accent-text-color);
 }
+
+}
+
+
+
+
+
 
 .meil-icon {
 
