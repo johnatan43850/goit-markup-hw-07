@@ -161,10 +161,7 @@
     display: inline-block;
     fill: var(--white-text-color);
 
-    &:hover,
-    &:focus {
-            background-color: var(--accent-text-color);
-        }
+   
 }
 
 
@@ -182,6 +179,10 @@
     border-radius: 50%;
     background-color: var(--icon-background-color);
 
+    &:hover,
+     &:focus {
+            background-color: var(--accent-text-color);
+        }
 }
 
 

@@ -7,6 +7,55 @@
     padding-bottom: 94px;
 }
 
+.section-item {
+    width: 270px;
+
+    &:not(:last-child) {
+            margin-right: 30px;
+        }
+}
+
+
+
+.box {
+    display: flex;
+}
+
+
+
+
+.section-title {
+    margin-bottom: 10px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+}
+
+.section-text {
+    font-size: 14px;
+    line-height: 1.71;
+
+    color: var(--secondary-text-color);
+}
+
+
+.laine-div {
+    display: flex;
+    background: var(--button-background);
+    width: 270px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.laine-icon {
+    fill: var(--pramary-text-color);
+}
+
 /* section-hero */
 
 .hero {
@@ -85,6 +134,11 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
 
+    &:hover,
+    &:focus {
+            fill: var(--accent-text-color);
+        }
+
 }
 
 .icon-close {
@@ -96,10 +150,7 @@
 }
 
 
-.close-button:hover,
-.close-button:focus {
-    fill: var(--accent-text-color);
-}
+
 
 
 .backdrop {
@@ -236,6 +287,10 @@
     height: 120px;
     padding: 12px 16px;
 
+    &:focus {
+         border-color: var(--accent-text-color);
+        }
+
 }
 
 textarea {
@@ -248,9 +303,7 @@ textarea {
 
 }
 
-.comment-form:focus {
-    border-color: var(--accent-text-color);
-}
+
 
 .form-box label {
     margin-bottom: 4px;
@@ -265,14 +318,16 @@ textarea {
     fill: currentColor;
     width: 18px;
     height: 18px;
+
+    &:hover,
+    &:focus {
+    
+            color: var(--accent-text-color);
+    
+    }
 }
 
-.name-icon:hover,
-.name-icon:focus {
 
-    color: var(--accent-text-color);
-
-}
 
 
 .form-input:focus~.name-icon {
@@ -356,11 +411,12 @@ textarea {
 
 .section-item {
     width: 270px;
+    &:not(:last-child) {
+            margin-right: 30px;
+        }
 }
 
-.section-item:not(:last-child) {
-    margin-right: 30px;
-}
+
 
 .box {
     display: flex;

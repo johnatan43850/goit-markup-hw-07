@@ -35,11 +35,11 @@
        border-radius: 50%;
         color:var(--icon-fill-color);
         
-      
-}
-.link-icon:hover, .link-icon:focus{
-        background-color: var(--accent-text-color);
-        color: var(--white-text-color);
+&:hover,
+&:focus {
+                background-color: var(--accent-text-color);
+                color: var(--white-text-color);
+        }
 }
 
 
@@ -54,12 +54,20 @@
         margin-right: 10px;
         width: 44px;
         height: 44px;
+
+        &:last-child {
+        margin-right: 0px;
+                }
 }
 
 .team-items{
         
        margin-right: 30px;
         background: var(--white-text-color);
+
+        &:last-child {
+        margin-right: 0px;
+                }
 }
 
 .team-shadow{
@@ -67,13 +75,9 @@
                 border-radius: 0px 0px 4px 4px;
 }
 
-.team-items:last-child{
-        margin-right: 0px;
-}
 
-.team-item:last-child {
-        margin-right: 0px;
-}
+
+
 
 
 
